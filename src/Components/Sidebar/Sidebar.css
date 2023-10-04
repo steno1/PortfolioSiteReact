@@ -7,8 +7,9 @@ background-color: rgb(27, 22, 22);
 .sidebar{
     height:100vh;
     background-color: black;
-    width: 95px;
+    width: 75px;
     position: fixed;
+    
 
 }
 .sidebar-expand{
@@ -26,6 +27,8 @@ background-color: rgb(27, 22, 22);
     color:white;
     border-radius: 5px;
     margin-top: 50px;
+    margin-right: 50px;
+   
 
 }
 
@@ -34,4 +37,5 @@ background-color: rgb(27, 22, 22);
    align-items: right;
    justify-content: right;
    cursor: pointer;
+   
 }

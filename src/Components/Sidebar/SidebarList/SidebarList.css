@@ -27,8 +27,8 @@ border:3px solid whitesmoke;
     margin-bottom:30px;
     cursor: pointer;
     list-style-type: none;
+  
+   
 }
-.navbar-items-only-icons ul li svg{
-margin-left: 10px;
 
-}
+
