@@ -1,6 +1,7 @@
 .home{
     height: 200px;
    color:white;
+   
 }
 .home-content h1{
     display: flex;
@@ -24,3 +25,9 @@
     margin-left: 120px;
     color: #A6FF96;
 }
+
+    .time {
+word-wrap: break-word;
+    }
+  
+    
