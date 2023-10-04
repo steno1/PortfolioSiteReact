@@ -1,11 +1,12 @@
 .sidebar-section{
 display: flex;
+background-color: rgb(27, 22, 22);
 
 }
 
 .sidebar{
     height:100vh;
-    background-color: #004225;
+    background-color: black;
     width: 95px;
     position: fixed;
 
@@ -20,7 +21,7 @@ display: flex;
 }
 
 .icon-for-sidebar-expand-and-collapse p svg{
-    background-color: #004225;
+    background-color: black;
     padding: 5px;
     color:white;
     border-radius: 5px;
