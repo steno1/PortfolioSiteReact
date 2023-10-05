@@ -2,6 +2,7 @@ import "./Home.css"
 
 import Time from "../Time/Time";
 import Typewriter from 'typewriter-effect';
+import myCv from "./Pdf newest.pdf"
 
 const Home = () => {
   return (
@@ -24,6 +25,12 @@ const Home = () => {
               }}
             />
           </h2>
+          <div className="button-for-action">
+          <button className="btn">Hire me</button>
+          <button className="btn2"><a href={myCv}
+           download="Onu Princeley Toochukwu Resume">Get Resume</a></button>
+          </div>
+    
         </div>
       </div>
     
