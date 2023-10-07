@@ -27,7 +27,7 @@
     
 }
 .about-title h5{
-    text-align: center;
+    margin-right: 500px;
 }
 
 @media (max-width: 767px) {
@@ -35,7 +35,7 @@
     .about-image img {
         height: 200px;
         width: 200px;
-        margin-left: 150px;
+        margin-left: 120px;
         margin-top: 25px;
         margin-bottom: 20px;
     }
@@ -44,6 +44,10 @@
         margin-left: 80px;
         margin-bottom: 10px;
        
+    }
+    .about-title h3{
+        display: inline-block;
+        margin-left: 70px;
     }
     
 }

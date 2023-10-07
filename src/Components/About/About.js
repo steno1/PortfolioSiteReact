@@ -17,7 +17,7 @@ alt=" profile pics"/>
 <div className="col-xl-6 col col-lg-6 col-md-12 col-sm-12">
 <div className="about-details">
   <div className="about-title">
-<h5>About me</h5>
+<h3>About me</h3>
   </div>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

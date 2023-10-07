@@ -1,6 +1,4 @@
-.body{
-  background-color: #B0D9B1;
-}
+
 
 .home{
     height: 260px;
@@ -111,11 +109,13 @@ margin-left: 130px;
             width: 120px; 
             font-size: 15px;
             padding: 5px 10px 5px 10px;
+            height: 60px;
         }
         .btn2 {
             width: 120px; 
             font-size: 15px;
             padding: 5px 10px 5px 10px;
+            height: 60px;
         }
         .button-for-action{
             
