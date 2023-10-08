@@ -1,5 +1,6 @@
 .techStack-section{
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .section-title h2{
@@ -38,10 +39,44 @@ h2{
     font-size: larger;
 }
 
+.tech-number{
+    border-radius: 40%;
+    height: 40px;
+    width: 40px;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 40px;
+}
+.load-more-tech-stack{
+    background: rgb(36,18,0);
+background: linear-gradient(90deg, rgba(36,18,0,0.5791973894049807) 0%,
+ rgba(121,45,9,0.9713542521500788) 35%, rgba(91,154,139,1) 100%);
+    width: 150px;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    display: table;
+    margin-left: auto;
+    margin-top: 35px;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+}
+.load-more-tech-stack:hover{
+background-color: blueviolet;
+font-size: larger;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 500;
+
+}
+
 @media (max-width: 767px) {
-   .techStack-section{
-    
-   }
    .tech-content p{
     text-align: center;
     padding-top: 30px;

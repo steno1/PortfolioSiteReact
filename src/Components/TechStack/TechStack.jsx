@@ -1,31 +1,17 @@
 import "./techStack.css"
 
+import { colors, data } from "../../data"
+
 import React from 'react'
+import { useState } from "react"
 
 const TechStack = () => {
-    const data=[
-{name:"Full Stack Developer"},
-{name:"Javascript"},
-{name:"CSS"},
-{name:"HTML"},
-{name:"React"},
-{name:"Redux"},
-{name:"Express"},
-{name:"Authentication"},
-{name:"Error Handling"},
-{name:"RESTful APIs"},
-{name:"Context Api"},
-{name:"Bootstrap"},
-{name:"Version Control (Git)"},
-{name:"Typescript"},
-{name:"Node.js"},
-{name:"MongoDB"},
-{name:"CSS Preprocessors(Sass)"},
-{name:"Responsive Designs"},
-{name:"Documentation"}
+    const [loadMoreTech, setLoadMoreTech]=useState(8)
+    const loadMore=()=>{
 
+       setLoadMoreTech((prev)=>prev+3) 
+    }
 
-    ]
   return (
     <div className="container techStack-section">
     <div className="section-title">
@@ -34,10 +20,13 @@ const TechStack = () => {
 
     </div>
     <div className="row">
-{data.map((item, index)=>(
+{data.slice(0,loadMoreTech).map((item, index)=>(
 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12" key={index}>
     <div className="tech-content">
+<span className="tech-number" style={{backgroundColor:colors[index]}}>
+{index+1}
 
+</span>
     <p>{item.name}</p>
 
     </div>
@@ -46,6 +35,13 @@ const TechStack = () => {
 ))}
 
     </div>
+    {loadMoreTech >= data.length? null :(
+ <span className="load-more-tech-stack" onClick={loadMore}>
+ Load More...
+ 
+ </span>
+    )}
+   
     </div>
   )
 }
